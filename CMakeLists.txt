@@ -1,8 +1,10 @@
 cmake_minimum_required(VERSION 3.8)
 project(urdf_parser)
 
-find_package(ament_cmake REQUIRED)
+find_package(catkin REQUIRED COMPONENTS
+)
+find_package(xbot2 REQUIRED)
 
-ament_python_install_package(${PROJECT_NAME})
+catkin_python_setup()
 
-ament_package()
+catkin_package()
