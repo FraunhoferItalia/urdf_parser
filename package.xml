@@ -4,9 +4,11 @@
   <name>urdf_parser</name>
   <version>0.0.1</version>
   <description>urdf_parser package</description>
+  <author>Marco Magri</author>
+  <author>Carlo Morganti</author>
   <maintainer email="marco.magri@fraunhofer.it">Marco Magri</maintainer>
   <maintainer email="carlo.morganti@fraunhofer.it">Carlo Morganti</maintainer>
-  <license>Copyright Fraunhofer Italia 2024</license>
+  <license>Apache 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
